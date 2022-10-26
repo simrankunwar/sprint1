@@ -1,0 +1,21 @@
+{% extends 'mfl/base.html' %}
+{% block content %}
+        <h1>Books</h1>
+
+    <a href="{% url 'booklist' %}">
+    <img src="../media/bookshelf/book.jpg" alt="Books" width="150px" height="160px">
+    </a>
+
+        <h1>Author</h1>
+
+    <a href="{% url 'authorlist' %}">
+    <img src="../media/bookshelf/author.jpg" alt="Author" width="150px" height="160px">
+    </a>
+
+        <h1>Genre</h1>
+
+    <a href="{% url 'genrelist' %}">
+    <img src="../media/bookshelf/genre.jpg" alt="Genre" width="150px" height="160px">
+    </a>
+
+{% endblock content %}

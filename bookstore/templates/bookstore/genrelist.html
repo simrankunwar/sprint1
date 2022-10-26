@@ -1,0 +1,20 @@
+{% extends 'mfl/base.html' %}
+
+{% block content %}
+  <h1>Genre List</h1>
+  {% if genres %}
+  <ul>
+    {% for genre in genres %}
+      <a style="display: inline-block; margin: 10px" href="{{ genre.get_absolute_url }}">
+            <img src="{{ genre.picture.url }}" title="{{ genre.name }}" width="200px" height="200px">
+            <p>
+                {{ genre.name }}
+            </p>
+        </a>
+    {% endfor %}
+  </ul>
+  {% else %}
+    <p>There are no genres in the library.</p>
+  {% endif %}
+{% endblock %}
+

@@ -1,0 +1,21 @@
+{% extends 'mfl/base.html' %}
+
+{% block content %}
+  <h1>Name: {{ author.first_name }} {{author.last_name }}</h1>
+
+  <p><strong>Bio:</strong> {{ author.bio }}</p>
+
+
+  <div style="margin-left:20px;margin-top:20px">
+    <h4>Books</h4>
+
+    {% for book in author.book_set.all %}
+        <a style="display: inline-block; margin: 10px" href="{{ book.get_absolute_url }}">
+            <img src="{{ book.image.url }}" title="{{ book.title }}" width="200px" height="250px">
+            <p>
+                {{ book.title }}
+            </p>
+        </a>
+    {% endfor %}
+  </div>
+{% endblock %}
