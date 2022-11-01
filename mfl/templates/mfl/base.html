@@ -21,16 +21,16 @@
 
 
     {% if title %}
-        <title>Virtual Librarian - {{ title }}</title>
+        <title>Virtual Library - {{ title }}</title>
     {% else %}
-        <title>Virtual Librarian</title>
+        <title>Virtual Library</title>
     {% endif %}
 </head>
 <body>
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="{% url 'home' %}">Virtual Librarian</a>
+          <a class="navbar-brand" href="{% url 'home' %}">Virtual Library</a>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -40,17 +40,9 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li><a href="{% url 'home' %}">Home</a></li>
-                <li><a href="{% url 'about' %}">About</a></li>
                 {% if user.is_authenticated %}
-                    <li><a class="nav-item nav-link" href="{% url 'bookclub' %}">BookClub</a></li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="{% url 'bookshelf' %}">BookShelf <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="{% url 'booklist' %}">Book List</a></li>
-                                <li><a href="{% url 'authorlist' %}">Author List</a></li>
-                                <li><a href="{% url 'genrelist' %}">Genre List</a></li>
-                            </ul>
-                    </li>
+                    <li><a class="nav-item nav-link" href="{% url 'bookclub' %}">My Lists</a></li>
+                    <li><a href="{% url 'booklist' %}">Book List</a></li>
             </ul>
 
             <!-- Navbar Right Side -->

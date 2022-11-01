@@ -6,6 +6,38 @@
   <component name="ChangeListManager">
     <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="deleted pics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/author_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/book_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/booklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/booklist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/bookshelf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/author_pics/jeap_paul_getty.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/author_pics/robert_kiyosaki.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/book_pics/how_to_be_rich.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/book_pics/rich-dad-poor-dad-24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/bookshelf/author.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/bookshelf/book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/bookshelf/genre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/default_author.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/default_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/default_genre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/genre_pics/financial.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/home/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/home/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/home/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/home/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/home/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/home/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/home/bookclub.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/home/bookshelf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/home/profile2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/home/register.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/dorcas_i0Q6tZe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/templates/mfl/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/templates/mfl/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +77,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Python tests.Python tests in LoginLogout.py">
     <configuration name="ProjectTeam" type="Python.DjangoServer" factoryName="Django server">
@@ -115,7 +148,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in /Users/dorcashodonou/Documents/GitHub/ProjectTeam/Tests/unitTest_loginGood.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in /Users/dsledge/Desktop/4900/FSDgroupproject/Tests/unitTest_loginGood.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ProjectTeam" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +168,7 @@
         <item itemvalue="Python tests.Python tests in LoginLogout.py" />
         <item itemvalue="Python tests.Python tests in BookAddedToCart.py" />
         <item itemvalue="Python tests.Python tests in AddAuthorAdmin.py" />
-        <item itemvalue="Python tests.Python tests in /Users/dorcashodonou/Documents/GitHub/ProjectTeam/Tests/unitTest_loginGood.py" />
+        <item itemvalue="Python tests.Python tests in /Users/dsledge/Desktop/4900/FSDgroupproject/Tests/unitTest_loginGood.py" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +211,7 @@
       <workItem from="1665675991438" duration="2173000" />
       <workItem from="1666635384252" duration="5754000" />
       <workItem from="1666807121317" duration="1751000" />
+      <workItem from="1667279697943" duration="3050000" />
     </task>
     <task id="LOCAL-00001" summary="deleted pics">
       <created>1665677441333</created>

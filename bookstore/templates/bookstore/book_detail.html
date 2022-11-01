@@ -1,7 +1,7 @@
 {% extends 'mfl/base.html' %}
 
 {% block content %}
-  <h1>Title: {{ book.title }}</h1>
+  <h1>{{ book.title }}</h1>
 
   <p><strong>Author:</strong> <a href="{{ book.author.get_absolute_url }}">{{ book.author }}</a></p>
   <p><strong>Summary:</strong> {{ book.summary }}</p>

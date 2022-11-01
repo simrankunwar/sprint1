@@ -5,7 +5,7 @@
     {% if user.is_authenticated %}
         <div class="page-container">
             <h2>Hello {{ user.username }}</h2>
-            <h2 style="text-align: center">Welcome to The Virtual Librarian</h2>
+            <h2 style="text-align: center">Welcome to The Virtual Library</h2>
             <hr style="height: 10px; margin: auto 220px;">
             <p style="text-align: center">Here you can find a variety of your favorite books and add them to different lists which you can edit to track your progress</p>
         </div>
@@ -20,7 +20,6 @@
         <div class="row" style="padding-top: 60px">
             <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card">
-                    <img src="../media/home/bookclub.jpg" class="card-img-top" alt="MyLists" width="200" height="200">
                     <div class="card-body">
                         <h5 class="card-title">My Lists</h5>
                         <p class="card-text">Track your progress here</p>
@@ -32,11 +31,10 @@
 
            <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card">
-                    <img src="../media/home/bookshelf.jpg" class="card-img-top" alt="BookShelf" width="200" height="200">
                     <div class="card-body">
                         <h5 class="card-title">BookShelf</h5>
-                        <p class="card-text">Explore our full or filtered selection</p>
-                        <p><a class="btn btn-primary" href="{% url 'bookshelf' %}"
+                        <p class="card-text">List of all books</p>
+                        <p><a class="btn btn-primary" href="{% url 'booklist' %}"
                               role="button">View details &raquo;</a></p>
                     </div>
                 </div>
@@ -44,7 +42,6 @@
         {% if user.is_authenticated %}
            <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card">
-                    <img src="../media/home/profile2.jpg" class="card-img-top" alt="Profile" width="200" height="200">
                     <div class="card-body">
                         <h5 class="card-title">Profile</h5>
                         <p class="card-text">Do you want to modify your profile?</p>
@@ -68,20 +65,6 @@
         {% endif %}
         </div>
     </div>
-    <div>
-        <h3 style="text-align: center; padding-top: 50px; padding-bottom: 30px">Best Selling Books of the Moment</h3>
-        <div style="display: flex; justify-content: space-between; align-items: center">
-            <ul>
-                <img src="../media/home/1.jpg" width="200" height="200">
-                <img src="../media/home/2.jpg" width="200" height="200">
-                <img src="../media/home/3.jpg" width="200" height="200">
-                <img src="../media/home/4.jpg" width="200" height="200">
-                <img src="../media/home/5.jpg" width="200" height="200">
-                <img src="../media/home/6.jpg" width="200" height="200">
-            </ul>
-        </div>
-    </div>
-
     <br>
 
     </body>

@@ -20,7 +20,6 @@ fonttools==4.32.0
 greenlet==1.1.2
 html5lib==1.1
 kombu==5.2.4
-Pillow==9.0.1
 prompt-toolkit==3.0.29
 pycparser==2.21
 pydyf==0.1.2
