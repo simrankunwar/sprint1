@@ -6,38 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="deleted pics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/author_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/book_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/booklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/booklist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/bookshelf.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/author_pics/jeap_paul_getty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/author_pics/robert_kiyosaki.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/book_pics/how_to_be_rich.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/book_pics/rich-dad-poor-dad-24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/bookshelf/author.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/bookshelf/book.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/bookshelf/genre.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/default.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/default_author.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/default_book.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/default_genre.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/genre_pics/financial.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/home/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/home/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/home/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/home/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/home/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/home/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/home/bookclub.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/home/bookshelf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/home/profile2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/home/register.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/profile_pics/dorcas_i0Q6tZe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/templates/mfl/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/templates/mfl/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +179,7 @@
       <workItem from="1665675991438" duration="2173000" />
       <workItem from="1666635384252" duration="5754000" />
       <workItem from="1666807121317" duration="1751000" />
-      <workItem from="1667279697943" duration="3050000" />
+      <workItem from="1667279697943" duration="3771000" />
     </task>
     <task id="LOCAL-00001" summary="deleted pics">
       <created>1665677441333</created>
@@ -227,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666666007636</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="deleted pics">
+      <created>1667313334340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667313334340</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
