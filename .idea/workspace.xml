@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="deleted pics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +181,8 @@
       <workItem from="1666635384252" duration="5754000" />
       <workItem from="1666807121317" duration="1751000" />
       <workItem from="1667279697943" duration="3771000" />
+      <workItem from="1667486009785" duration="1008000" />
+      <workItem from="1667615348047" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="deleted pics">
       <created>1665677441333</created>
