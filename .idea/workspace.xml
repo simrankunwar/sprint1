@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="deleted pics">
+    <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/templates/mfl/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/bookclub.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/templates/mfl/mylists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/templates/mfl/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/post_confirm_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/post_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/post_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/templates/mfl/user_posts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mfl/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mfl/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sent_emails/20220421-040322-4533023168.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sent_emails/20220503-212636-4393781376.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +190,8 @@
       <workItem from="1665675991438" duration="2173000" />
       <workItem from="1666635384252" duration="5754000" />
       <workItem from="1666807121317" duration="1751000" />
-      <workItem from="1667279697943" duration="3771000" />
+      <workItem from="1667279697943" duration="5959000" />
+      <workItem from="1667489415215" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="deleted pics">
       <created>1665677441333</created>
@@ -202,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667313334340</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="push">
+      <created>1667351060419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667351060419</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +240,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deleted pics" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted pics" />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProjectTeam$.coverage" NAME=" Coverage Results" MODIFIED="1652330022277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />

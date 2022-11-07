@@ -41,7 +41,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="{% url 'home' %}">Home</a></li>
                 {% if user.is_authenticated %}
-                    <li><a class="nav-item nav-link" href="{% url 'bookclub' %}">My Lists</a></li>
+                    <li><a class="nav-item nav-link" href="{% url 'mylists' %}">My Lists</a></li>
                     <li><a href="{% url 'booklist' %}">Book List</a></li>
             </ul>
 
