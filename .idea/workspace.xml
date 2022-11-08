@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="created book list page--no function yet" />
-    <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="deleted pics">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
