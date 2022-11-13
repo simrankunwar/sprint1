@@ -4,7 +4,6 @@ billiard==3.6.4.0
 Brotli==1.0.9
 celery==5.2.6
 cffi==1.15.0
-click==7.1.2
 click-aliases==1.0.1
 click-default-group==1.2.2
 click-didyoumean==0.3.0
