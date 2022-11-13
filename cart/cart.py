@@ -30,8 +30,7 @@ class Cart(object):
             cart[str(book.id)]['book'] = book
 
         for item in cart.values():
-            item['price'] = Decimal(item['price'])
-            item['total_price'] = item['price'] * item['quantity']
+            item['quantity']
             yield item
 
     def __len__(self):
@@ -46,8 +45,7 @@ class Cart(object):
         """
         book_id = str(book.id)
         if book_id not in self.cart:
-            self.cart[book_id] = {'quantity': 0,
-                                     'price': str(book.price)}
+            self.cart[book_id] = {'quantity': 0,}
         if update_quantity:
             self.cart[book_id]['quantity'] = quantity
         else:
@@ -66,9 +64,6 @@ class Cart(object):
         if book_id in self.cart:
             del self.cart[book_id]
             self.save()
-
-    def get_total_price(self):
-        return sum(Decimal(item['price']) * item['quantity'] for item in self.cart.values())
 
     def clear(self):
         # remove cart from session

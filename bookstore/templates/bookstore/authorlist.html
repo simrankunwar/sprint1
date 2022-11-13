@@ -1,4 +1,4 @@
-{% extends 'mfl/base.html' %}
+{% extends 'library/base.html' %}
 
 {% block content %}
   <h1>Author List</h1>
@@ -6,7 +6,6 @@
   <ul>
     {% for author in authors %}
       <a style="display: inline-block; margin: 10px" href="{{ author.get_absolute_url }}">
-            <img src="{{ author.photo.url }}" title="{{ author.first_name }} {{ author.last_name }}" width="200px" height="200px">
             <p>
                 {{ author.first_name }} {{ author.last_name }}
             </p>

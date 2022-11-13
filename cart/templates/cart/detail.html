@@ -1,22 +1,19 @@
-{% extends "mfl/base.html" %}
+{% extends "library/base.html" %}
 {% load static %}
 {% load bootstrap5 %}
 
 {% block title %}
-  Your shopping cart
+  Cart
 {% endblock %}
 
 {% block content %}
-  <h1>Your Shopping Cart</h1>
+  <h1>Cart</h1>
   <table class="cart">
     <thead>
       <tr>
-        <th>Image</th>
         <th>Book</th>
         <th>Quantity</th>
         <th>Remove</th>
-        <th>Unit price</th>
-        <th>Price</th>
       </tr>
     </thead>
     <tbody>
@@ -25,7 +22,6 @@
           <tr>
             <td>
               <a href="{{ book.get_absolute_url }}">
-                <img src="{{ book.image.url }}">
               </a>
             </td>
             <td>{{ book.title }}</td>

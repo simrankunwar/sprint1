@@ -40,14 +40,13 @@ def order_create(request):
             for item in cart:
                 OrderItem.objects.create(order=order,
                                          book=item['book'],
-                                         price=item['price'],
                                          quantity=item['quantity'])
             # clear the cart
             cart.clear()
             # set the order in the session
             request.session['order_id'] = order.id
             # redirect for payment
-            return redirect(reverse('payment:process'))
+            return redirect(reverse('order'))
 
     else:
         form = OrderCreateForm()

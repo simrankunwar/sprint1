@@ -1,4 +1,4 @@
-{% extends 'mfl/base.html' %}
+{% extends 'library/base.html' %}
 
 {% block content %}
   <h1>Genre List</h1>
@@ -6,7 +6,6 @@
   <ul>
     {% for genre in genres %}
       <a style="display: inline-block; margin: 10px" href="{{ genre.get_absolute_url }}">
-            <img src="{{ genre.picture.url }}" title="{{ genre.name }}" width="200px" height="200px">
             <p>
                 {{ genre.name }}
             </p>

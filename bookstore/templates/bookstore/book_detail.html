@@ -1,26 +1,27 @@
-{% extends 'mfl/base.html' %}
+{% extends 'library/base.html' %}
 
 {% block content %}
   <h1>{{ book.title }}</h1>
 
-  <p><strong>Authorr:</strong> <a href="{{ book.author.get_absolute_url }}">{{ book.author }}</a></p>
+    <p><strong>Author:</strong>{{ book.author }}</p>
+  <!-- <p><strong>Author:</strong> <a href="{{ book.author.get_absolute_url }}">{{ book.author }}</a></p> -->
   <p><strong>Summary:</strong> {{ book.summary }}</p>
   <p><strong>ISBN:</strong> {{ book.isbn }}</p>
-  <p><strong>Genre:</strong> <a href="{{ book.genre.get_absolute_url }}">{{ book.genre }}</a></p>
-
+    <p><strong>Genre:</strong> {{ book.genre }}</p>
+ <!-- <p><strong>Genre:</strong> <a href="{{ book.genre.get_absolute_url }}">{{ book.genre }}</a></p>
+-->
   <div style="margin-left:20px;margin-top:20px;">
     <hr>
-    <h4>Purchase</h4>
+   <!--    <h4>Rent</h4>
       <p><strong>Status:</strong>{{ book.status }}</p>
       {% if book.status == 'unavailable' %}
-        <p><strong>We are sorry this book is not available at this moment. Check back again soon!</strong></p>
+        <p><strong>Sorry, this book is not available right now. Check again soon!</strong></p>
       {% elif book.status == 'available' %}
           <p><strong>Stock:</strong> {{ book.stock }}</p>
-          <p><strong>Price:</strong> ${{ book.price }}</p>
           <form action="{% url 'cart:cart_add' book.id %}" method="post">
           {{ cart_book_form }}
           {% csrf_token %}
-          <input type="submit" value="Add to cart">
+        <input type="submit" value="Add to cart"> -->
           </form>
           {{ book.description|linebreaks }}
         {% endif %}

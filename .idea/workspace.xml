@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="test css backgrounds and image">
+    <list default="true" id="cac306f8-953c-4aca-86db-8fe8f8cb1e08" name="Changes" comment="fixing migrations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/templates/bookstore/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/templates/bookstore/book_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/static/library/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/library/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/library/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/templates/library/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/library/templates/library/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library_bookstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/library_bookstore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/library/library.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/library/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/library/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/password_reset.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,15 +34,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="26fGltF47AXU5snZXuTwAVjuZnO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,24 +53,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mfl/templates/media.home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mfl/templates/media.home" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/mfl/templates/media/home" />
+      <recent name="$PROJECT_DIR$/static/library" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in LoginLogout.py">
+  <component name="RunManager">
     <configuration name="ProjectTeam" type="Python.DjangoServer" factoryName="Django server">
       <module name="ProjectTeam" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,52 +89,7 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in AddAuthorAdmin.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="ProjectTeam" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/AddAuthorAdmin.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in BookAddedToCart.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="ProjectTeam" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/BookAddedToCart.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in LoginLogout.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="ProjectTeam" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/LoginLogout.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in /Users/simrankunwar/FSDGroup/FSDgroupproject/Tests/unitTest_loginGood.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in /Users/dsledge/Desktop/4900/FSDgroupproject/Tests/unitTest_loginGood.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ProjectTeam" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,12 +104,57 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in /Users/dsledge/Desktop/4900/FSDgroupproject/tests/AddAuthorAdmin.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ProjectTeam" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/AddAuthorAdmin.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in /Users/dsledge/Desktop/4900/FSDgroupproject/tests/BookAddedToCart.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ProjectTeam" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/BookAddedToCart.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in /Users/dsledge/Desktop/4900/FSDgroupproject/tests/LoginLogout.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ProjectTeam" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/LoginLogout.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in LoginLogout.py" />
-        <item itemvalue="Python tests.Python tests in BookAddedToCart.py" />
-        <item itemvalue="Python tests.Python tests in AddAuthorAdmin.py" />
-        <item itemvalue="Python tests.Python tests in /Users/simrankunwar/FSDGroup/FSDgroupproject/Tests/unitTest_loginGood.py" />
+        <item itemvalue="Python tests.Python tests in /Users/dsledge/Desktop/4900/FSDgroupproject/tests/LoginLogout.py" />
+        <item itemvalue="Python tests.Python tests in /Users/dsledge/Desktop/4900/FSDgroupproject/tests/BookAddedToCart.py" />
+        <item itemvalue="Python tests.Python tests in /Users/dsledge/Desktop/4900/FSDgroupproject/tests/AddAuthorAdmin.py" />
+        <item itemvalue="Python tests.Python tests in /Users/dsledge/Desktop/4900/FSDgroupproject/Tests/unitTest_loginGood.py" />
       </list>
     </recent_temporary>
   </component>
@@ -199,8 +202,6 @@
       <workItem from="1667279697943" duration="3771000" />
       <workItem from="1667486009785" duration="1008000" />
       <workItem from="1667615348047" duration="750000" />
-      <workItem from="1668059398574" duration="8403000" />
-      <workItem from="1668326007608" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="deleted pics">
       <created>1665677441333</created>
@@ -251,28 +252,42 @@
       <option name="project" value="LOCAL" />
       <updated>1667922058420</updated>
     </task>
-    <task id="LOCAL-00008" summary="test css background">
-      <created>1668059972717</created>
+    <task id="LOCAL-00008" summary="deleted pic spacers">
+      <created>1668099916096</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1668059972717</updated>
+      <updated>1668099916097</updated>
     </task>
-    <task id="LOCAL-00009" summary="test css backgrounds and image">
-      <created>1668066695531</created>
+    <task id="LOCAL-00009" summary="take out test fold">
+      <created>1668100138926</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1668066695531</updated>
+      <updated>1668100138926</updated>
     </task>
-    <task id="LOCAL-00010" summary="test css backgrounds and image">
-      <created>1668066725406</created>
+    <task id="LOCAL-00010" summary="migrations">
+      <created>1668128903676</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1668066725406</updated>
+      <updated>1668128903676</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="migrations">
+      <created>1668128909268</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668128909268</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixing migrations">
+      <created>1668139363813</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668139363813</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,12 +308,13 @@
     <MESSAGE value="deleted pics" />
     <MESSAGE value="push" />
     <MESSAGE value="created book list page--no function yet" />
-    <MESSAGE value="test css background" />
-    <MESSAGE value="test css backgrounds and image" />
-    <option name="LAST_COMMIT_MESSAGE" value="test css backgrounds and image" />
+    <MESSAGE value="deleted pic spacers" />
+    <MESSAGE value="take out test fold" />
+    <MESSAGE value="migrations" />
+    <MESSAGE value="fixing migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing migrations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FSDgroupproject$.coverage" NAME=" Coverage Results" MODIFIED="1668059891972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/ProjectTeam$.coverage" NAME=" Coverage Results" MODIFIED="1652330022277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>
