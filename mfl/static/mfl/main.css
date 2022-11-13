@@ -1,8 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Abel);
 
 body {
-    background: antiquewhite;
-    color: black;
+    background: indianred;
+    color: white;
     margin-top:4rem;
     padding-left: 40px;
     padding-right: 40px;
@@ -11,8 +12,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: black;
-  font-family: 'Ubuntu', sans-serif; font-weight:normal
+  color: Yellow;
+    font-family: 'ui-rounded', sans-serif; font-weight:normal; font-size:23px;
 }
 
 ul {
@@ -26,7 +27,7 @@ ul {
 }
 
 .site-header .navbar-nav .nav-link {
-  color:white;
+  color:yellow;
 }
 
 .site-header .navbar-nav .nav-link:hover {

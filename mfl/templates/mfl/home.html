@@ -1,5 +1,8 @@
 {% extends 'mfl/base.html' %}
+{% load bootstrap5 %}
 
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
 {% block content %}
     <body>
     {% if user.is_authenticated %}
@@ -20,6 +23,7 @@
         <div class="row" style="padding-top: 60px">
             <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card">
+                    <img src="../../../media/home/list.webp" class="card-img-top" alt="Register" width="200" height="200">
                     <div class="card-body">
                         <h5 class="card-title">My Lists</h5>
                         <p class="card-text">Track your progress here</p>
@@ -31,6 +35,7 @@
 
            <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card">
+                    <img src="../../../media/home/bookself.jpeg" class="card-img-top" alt="Register" width="200" height="200">
                     <div class="card-body">
                         <h5 class="card-title">BookShelf</h5>
                         <p class="card-text">List of all books</p>
@@ -45,15 +50,16 @@
                     <div class="card-body">
                         <h5 class="card-title">Profile</h5>
                         <p class="card-text">Do you want to modify your profile?</p>
-                        <p><a class="btn btn-primary" href="{% url 'profile' %}"
-                              role="button">View details &raquo;</a></p>
+                        <a class="btn btn-primary" href="#" role="button">View details</a>
+{#                        <p><a class="btn btn-primary" href="{% url 'profile' %}"#}
+{#                              role="button">View details &raquo;</a></p>#}
                     </div>
                 </div>
             </div>
         {% else %}
             <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card">
-                    <img src="../media/home/register.jpg" class="card-img-top" alt="Register" width="200" height="200">
+                    <img src="../../../media/home/register.png" class="card-img-top" alt="Register" width="200" height="200">
                     <div class="card-body">
                         <h5 class="card-title">Register</h5>
                         <p class="card-text">Are you new?</p>
